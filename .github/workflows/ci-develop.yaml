@@ -4,7 +4,7 @@ on:
     branches: [develop]
 
 jobs:
-  lint-develop:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository on runner
